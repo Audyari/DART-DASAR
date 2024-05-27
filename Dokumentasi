@@ -1,25 +1,16 @@
-Pengenalan Dart
+Program Hello World
 
-==========================
+=========================
 
-Dart adalah bahasa pemrograman open-source yang dikembangkan oleh Google.
-Dart dirancang untuk membangun aplikasi web, seluler, desktop, dan server yang aman dan efisien.
+1. dart create my_simple_project
+2. cd my_simple_project
+3. 
 
+void main() {
+  print('Hello, Dart!');
+}
 
-Dart memiliki beberapa fitur menarik, antara lain:
-
-1. Sintaks yang Mudah Dipelajari: Dart memiliki sintaks yang mirip dengan Java, sehingga mudah dipelajari bagi programmer yang sudah familiar dengan bahasa pemrograman berorientasi objek.
-2. Fitur-fitur Modern: Dart menyediakan fitur-fitur modern seperti null safety, lambdas, extension methods, dan banyak lagi.
-3. Produktivitas yang Tinggi: Dart menyediakan tools dan IDE yang powerful, seperti Visual Studio Code dan Android Studio, yang memudahkan pengembangan aplikasi.
-4. Multiplatform: Dart dapat digunakan untuk membangun aplikasi di berbagai platform, termasuk web, seluler (Android dan iOS), desktop, dan server.
-5. Performa yang Tinggi: Dart dioptimalisasi untuk performa yang tinggi, sehingga dapat menghasilkan aplikasi yang responsif dan cepat.
-6. Open Source: Dart adalah bahasa pemrograman open-source, sehingga dapat diakses dan dikontribusikan oleh komunitas luas.
-
-Dart memiliki dua mode utama, yaitu:
-
-1. Dart VM: Dart VM adalah mesin virtual Dart yang dapat menjalankan kode Dart secara langsung tanpa perlu dikompilasi terlebih dahulu.
-2. Dart to JavaScript Compiler: Dart juga dapat dikompilasi menjadi JavaScript, sehingga dapat dijalankan di browser web.
+4. dart run
 
 
-========================================================
-
+==================================

@@ -1,16 +1,32 @@
-Program Hello World
+Pengenalan Dart OOP
 
-=========================
+============================
 
-1. dart create my_simple_project
-2. cd my_simple_project
-3. 
+constoh sederhana 
 
-void main() {
-  print('Hello, Dart!');
+// Definisi class 'Person'
+class Person {
+  String name;
+  int age;
+
+  // Konstruktor
+  Person(this.name, this.age);
+
+  // Metode
+  void introduce() {
+    print('Hello, my name is $name and I am $age years old.');
+  }
 }
 
-4. dart run
+void main() {
+  // Membuat objek 'person1' dari class 'Person'
+  Person person1 = Person('John', 30);
+  person1.introduce(); // Output: Hello, my name is John and I am 30 years old.
+
+  // Membuat objek 'person2' dari class 'Person'
+  Person person2 = Person('Jane', 25);
+  person2.introduce(); // Output: Hello, my name is Jane and I am 25 years old.
+}
 
 
-==================================
+=========================================
